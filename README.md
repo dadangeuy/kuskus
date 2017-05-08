@@ -8,7 +8,7 @@ A simple social media built with html, css, php and mysql. This is my final proj
 * Import > Execute SQL Script (or CTRL + Shift + Q)
 * Navigate to your db.sql file (inside mysql folder)
 # Deploy XAMPP Web File (for Windows)
-* Copy php and html folder into your apache web directory (by default C:/xampp/htdocs)
+* Copy img, php and html folder into your apache web directory (by default C:/xampp/htdocs)
 * Run XAMPP
 * Start Apache and MySQL service
 * Open http://localhost/ in your browser
