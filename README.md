@@ -12,3 +12,5 @@ A simple social media built with html, css, php and mysql. This is my final proj
 * Run XAMPP
 * Start Apache and MySQL service
 * Open http://localhost/ in your browser
+# Note
+* If you have a different mysql database configuration, you should change dbconnect.php file inside php folder according to your config
