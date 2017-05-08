@@ -4,11 +4,11 @@ A simple social media built with html, css, php and mysql. This is my final proj
 * XAMPP
 # Deploy MySQL Database
 * Open SQLYog
-* Create database "yzjvincb_kuskus"
+* Create database <code>yzjvincb_kuskus</code>
 * Import > Execute SQL Script (or CTRL + Shift + Q)
 * Navigate to your db.sql file (inside mysql folder)
 # Deploy XAMPP Web File (for Windows)
-* copy php and html folder into your apache web directory (default C:/xampp/htdocs)
-* run XAMPP
-* start Apache and MySQL service
-* open localhost in your browser
+* Copy php and html folder into your apache web directory (by default C:/xampp/htdocs)
+* Run XAMPP
+* Start Apache and MySQL service
+* Open http://localhost/ in your browser
