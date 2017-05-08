@@ -1,8 +1,7 @@
 # kuskus
-A simple social media built with html, css, php and mysql. This was Final Project for my Database Management Class.
+A simple social media built with html, css, php and mysql. This is my final project for Database Management Class in my college.
 # Requirement
 * XAMPP
-* MySQL Server
 # Deploy MySQL Database
 * Open SQLYog
 * Create database "yzjvincb_kuskus"
