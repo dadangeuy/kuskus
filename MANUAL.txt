@@ -1,0 +1,32 @@
+MySQL SP
+add_coment(id user, id post, caption)	: add comment into db
+add_follow(id user, id user 2)		: add follow relation between user
+add_post(id user, caption)		: add post into db
+add_user(name, email, pass, gender)	: add user into db
+get_comment(id post)			: get all post comment
+get_home(id user)			: get all post on user homepage
+get_notification(id user)		: get all user notification
+get_post(id post)			: get all post information
+get_user_post(id user)			: get all user post
+get_user(id user)			: get all user information
+update_avatar(id user, avatar)		: change user avatar
+verify_login(email, pass)		: verify if email & pass is correct, return id if correct
+remove_follow(id user, id user 2)	: remove follow relation between user
+
+note: to check if query is run successfully, you can check `errno` and `msg` on query result. `errno` = 0 mean query is run successfully.
+
+PHP API
+signup()	: triggered with $_POST['signup']
+login()		: triggered with $_POST['login']
+logout()	: triggered with $_GET['logout']
+send_post()	: triggered with $_POST['post']
+
+PHP SUPER GLOBAL
+$_SESSION[id_user]	: id of currently logged in user
+
+PHP GLOBAL
+$db	: mysql database connection
+
+
+
+
